@@ -29,5 +29,7 @@ export class EditeventComponent implements OnInit {
       
       });
   }
-
+  onSubmit(){
+    
+  }
 }

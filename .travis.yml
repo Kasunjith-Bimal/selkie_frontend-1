@@ -13,7 +13,7 @@ before_script:
   
 
 script:
-  - ng build 
+  - ng build --prod
 
 notifications:
   email:

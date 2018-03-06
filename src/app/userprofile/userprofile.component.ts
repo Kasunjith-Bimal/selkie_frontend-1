@@ -15,13 +15,16 @@ export class UserprofileComponent implements OnInit {
   
   userId:any;
 // userObj:any;
-@Output() userObj : EventEmitter<any> = new EventEmitter();
+   userObj;
   constructor(private userService: UserService,private loginService:LoginService,private router:Router ) { }
 
-
+  userEdit(){
+    console.log("edit");
+  }
 
 
   ngOnInit() {
+    // this.userObj = null;
     this.userId=window.location.href;
     let url:any[];
     url=this.userId.split("/");
