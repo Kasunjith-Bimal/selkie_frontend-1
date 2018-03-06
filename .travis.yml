@@ -13,10 +13,10 @@ before_script:
   
 
 script:
-  - ng build --prod
+  - ng build 
 
 after_success:
-  - ng build --prod
+  - 
 notifications:
   email:
     on_failure: change
