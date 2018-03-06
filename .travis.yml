@@ -16,9 +16,7 @@ script:
   - ng build --prod
 
 after_success:
-  - npm insatall
-  - npm start 
-
+  - ng build --prod
 notifications:
   email:
     on_failure: change
