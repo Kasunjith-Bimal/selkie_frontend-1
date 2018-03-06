@@ -15,7 +15,7 @@ export class UserprofileComponent implements OnInit {
   
   userId:any;
 // userObj:any;
-@Output() userObj = new EventEmitter<any>();
+@Output() userObj : EventEmitter<any> = new EventEmitter();
   constructor(private userService: UserService,private loginService:LoginService,private router:Router ) { }
 
 

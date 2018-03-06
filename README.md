@@ -94,5 +94,5 @@ you can view the application through this link
 
 https://WThamira.github.io/selkie_frontend/
 
-
+http://localhost:4200 
 
