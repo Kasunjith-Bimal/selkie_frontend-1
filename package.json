@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod",
-    "start": "concurrently \"node server.js\" \"ng serve --proxy-config proxy.conf.json\""
+    "postinstall": "ng build --aot -prod",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
