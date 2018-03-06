@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build --aot --prod",
     "start": "concurrently \"node server.js\" \"ng serve --proxy-config proxy.conf.json\""
   },
   "private": true,
@@ -40,7 +40,8 @@
     "rxjs": "^5.5.2",
     "scrollreveal": "^3.3.6",
     "wowjs": "^1.1.3",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "typescript": "~2.4.2"
   },
   "devDependencies": {
     "@angular/cli": "1.5.0",
@@ -50,6 +51,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "^4.0.1",
+    "concurrently": "^3.5.1",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
